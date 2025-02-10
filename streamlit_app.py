@@ -11,7 +11,7 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import IsolationForest
 
 # Load dataset (Replace with actual file)
-df = pd.read_csv("data/sl1.csv")
+df = pd.read_csv("sl1.csv")
 
 # Data Preprocessing
 df.dropna(inplace=True)
